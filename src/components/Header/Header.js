@@ -10,3 +10,9 @@ export const Header = (props) => {
     </div>
   );
 };
+
+// <SearchBar onSearchPhraseChange={props.onSearchPhraseChange} />
+// OBA KODY SĄ RÓWNOZNACZNE
+// SearchBar({
+//   onSearchPhraseChange: props.onSearchPhraseChange}
+// })
