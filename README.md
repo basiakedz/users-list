@@ -1,47 +1,39 @@
-# Users List
+# List of users ![Girl emoji](/public/favicon-32x32.png)
 
-Mini apka edukacyjna - aplikacja wyświetla listę userów na podstawie tablicy obiektów - obiekt jest reprezentacją usera.
+This mini App shows the list of users and allows to search certain person by name or location.
 
-Podgląd live aplikacji dostepny pod tym linkiem: http://users-list.surge.sh/
+The application was started by another person and displayed a list of users. The application was devoid of user filtering functionality using the search bar - which was my main task. Thanks to this, I had the opportunity to learn how to analyze the application / existing code so as to understand what is connected with what, and to add new filtering functionality to someone's code and implement the entire application so that it is ready for the user.
 
-## Uruchomienie aplikacji
+![Screenshot of App](/public/screenshot-of-app.png)
 
-Po sklonowaniu repozytorium należy wykonać następujące kroki:
+## Getting Started with Create React App
 
-- instalacja zależności (npm install)
-- uruchomienie aplikacji (npm start)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Zadanie
+### Available Scripts
 
-Twoim zadaniem jest dokończenie aplikacji zgodnie z podanymi informacjami (designy oraz opis, zhostowana aplikacja)
+To setup project download or clone the repository.
 
-Aplikacja wyświetla listę userów na podstawie tablicy obiektów: pierwszym Twoim zadaniem jest analiza aplikacji/istniejącego kodu tak żeby zrozumieć co z czym się łączy i co od czego zależy. Aplikacja jest pozbawiona funkcjonalnosci filtrowania userów za pomocą search bara - jest to Twoje główne zadanie do wykonania!
+In the project directory, you can run:
 
-Żeby to wykonać musisz dostosować kod będący w pliku App.js
+#### `npm install`
 
-### Plik App.js i to na co należy zwrócić uwagę:
+To start server:
 
-- komponent UsersList przyjmuje props users który wyswietla przekazaną listę - jeżeli przekażesz pustą tablice aplikacja nic nie wyświetli, jeżeli zakomentujesz któregoś z userów aplikacja również go pominie - musisz w jakiś sposób przekazywać tutaj odfiltrowanych userów
-- zwróć uwagę na funkcję handleSearchPhraseChange - co ona robi gdzie jest przekazywana i w jakim momencie jest wywoływana, sprawdź czym jest parametr searchPhraseInput
-- obecny stan aplikacji nie jest zgodny z designemw
+#### `npm start`
 
-### wskazówki
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- dużo consoluj (console.log())
-- żeby odfiltrować listę userów musisz skorzystać z metody dostępnej na tabicach: filter
-- dużo consoluj (console.log())
-- przefiltrowaną tablicę należy przekazać do komponentu UsersList za pomocą propsa users
-- dużo consoluj (console.log())
-- w plikach oznaczonych słowem solution są modelowe rozwiazania zadania - korzystaj w ostateczności :)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-a i dużo consoluj :p
+#### `npm run build`
 
-### Design
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![Design](./design.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Przykładowe działanie
-
-![Design](./design1.png)
-
-![Design](./design2.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
