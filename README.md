@@ -4,6 +4,10 @@ This mini App shows the list of users and allows to search certain person by nam
 
 The application was started by another person and displayed a list of users. The application was devoid of user filtering functionality using the search bar - which was my main task. Thanks to this, I had the opportunity to learn how to analyze the application / existing code so as to understand what is connected with what, and to add new filtering functionality to someone's code and implement the entire application so that it is ready for the user.
 
+### Link
+
+- Live preview: [https://users-list-basiakedz.netlify.app/](https://users-list-basiakedz.netlify.app/)
+
 ![Screenshot of App](/public/screenshot-of-app.png)
 
 ## Getting Started with Create React App
